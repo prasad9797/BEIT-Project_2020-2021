@@ -1,0 +1,134 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.55),
+      rgba(255, 255, 255, 0.55)
+    ),
+    url("../images/certificate_portal_bg3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#login {
+  overflow-x: hidden;
+  color: black;
+  height: 100vh;
+}
+
+.text-muted {
+  color: black !important;
+  font-weight: bolder;
+}
+
+/* .login-form {
+    margin-top: 12rem;
+} */
+
+label {
+  font-weight: bolder;
+}
+
+.header-title {
+  padding-top: 2rem;
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.header-title-reg {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: transparent !important;
+}
+
+.custom-control-label {
+  margin-bottom: 10px !important;
+}
+
+/* .custom-control-input {
+  opacity: 1 !important;
+} */
+
+.btn {
+  border-bottom: 4px;
+  border-color: transparent !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  /* box-shadow: 0px 0px 5px #00bcd4; */
+}
+
+.no-account {
+  color: black;
+}
+
+.no-account:hover {
+  color: black;
+}
+
+.already-account {
+  color: black;
+}
+
+.already-account:hover {
+  color: black;
+}
+
+.form-button {
+  margin: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 1000) {
+  .header-title {
+    padding-top: 15rem;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1500) {
+  .header-title {
+    font-size: 70px !important;
+  }
+}
+
+@media only screen and (max-width: 700) {
+  .login-fields {
+    margin: 5% !important;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.rowWrappera {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.rowWrapper {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 15%; */
+}

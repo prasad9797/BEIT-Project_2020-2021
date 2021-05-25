@@ -1,0 +1,24 @@
+{
+  "jwtPrivateKey": "jwtPrivateKey",
+
+  "pgHost": "server",
+  "pgUser": "postgres",
+  "pgPassword": "root",
+  "pgDatabase": "postgres",
+
+  "PORT": "PORT",
+
+  "defaultUsername": "defaultUsername",
+  "defaultPassword": "defaultPassword",
+
+  "ethAddress": "ethAddress",
+  "abi": "abi",
+  "privateKey": "privateKey",
+  "contractAddr": "contractAddr",
+  "infuraAPIkey": "infuraAPIkey",
+  "infuraEndpoint": "infuraEndpoint",
+  "network": "network",
+
+  "SMTPmail": "SMTPmail",
+  "SMTPpassword": "SMTPpassword"
+}

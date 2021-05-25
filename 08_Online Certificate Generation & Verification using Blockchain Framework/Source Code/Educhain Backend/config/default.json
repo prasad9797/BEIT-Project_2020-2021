@@ -1,0 +1,69 @@
+{
+  "jwtPrivateKey": "$2a$10$k90RTu3.dVGj4nXr22VQ4ezOGjnZ.o.zB54P6PLS0FAQx5yyLBsg2",
+
+  "pgHost": "server",
+  "pgUser": "postgres",
+  "pgPassword": "root",
+  "pgDatabase": "postgres",
+
+
+  "PORT": "5000",
+
+  "defaultUsername": "admin@gmail.com",
+  "defaultPassword": "$2a$10$wBX5Pea9cMY8K/WrEMmjgOqgi9/qNNxNJh6E9FhqDlrd/2qgklrYC",
+  "ethAddress": "0x5A91B43571183B22925bc7DE4d4B9Bc4D5B46B7E",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_keys",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_certs",
+          "type": "string"
+        }
+      ],
+      "name": "newCert",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "certificates",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "privateKey": "02167d27c57067d66a9fd452e3a7cc7347e78eefe0a473750c7d4297fbe414bc",
+  "contractAddr": "0x715925ff36cf50bd3D3e134f207625Dd9EBD0510",
+  "infuraAPIkey": "02c413bd8e8d48bcbae27daa4ae9ce8b",
+  "infuraEndpoint": "https://ropsten.infura.io/v3",
+  "network": "network",
+
+  "SMTPmail": "phyerwaaldev@gmail.com",
+  "SMTPpassword": "Phyer@123"
+}
+
+
